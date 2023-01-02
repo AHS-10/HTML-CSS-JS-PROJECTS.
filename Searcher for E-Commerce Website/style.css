@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    user-select: none;
+    background-color: #002366;
+    color: white;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* background-color: #555555; */
+    background-color: #656565;
+    /* background-color: #433F40; */
+    border-radius: 12px;
+}
+.submitBtn{
+    width: 100px;
+    color: white;
+    font-size: large;
+    background-color: #E4960E;
+    border: none;
+}
+.heading,.valueList{
+    color: #E4960E;
+
+}
+.selectBox{
+    /* background-color: #E4960E; */
+    background-color: #002366;
+    color: white;
+    width: 150px;
+}
