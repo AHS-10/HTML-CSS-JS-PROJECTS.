@@ -1,0 +1,82 @@
+
+.product {
+    margin-top: 120px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#product1{
+    margin-top: 200px;
+}
+#productLast{
+    margin-bottom: 120px;
+}
+
+ 
+.product img {
+    height: 95%;
+}  
+
+.prdctName{
+color: purple;
+}
+
+
+
+.fa-star{
+    color: grey;
+} 
+.ratingOutput{
+    color: purple;
+}
+.midddleText{
+    color: purple;
+}
+.fa-share-alt{
+    margin-left: 170px;
+    color: grey;
+}
+.fa-heart{
+    color: grey;
+}
+.price{
+    color: purple;
+}
+.oldPrc{
+    text-decoration: line-through;
+}
+
+
+.lessQnty, .addQnty{
+    padding: 4px;
+    width: 35px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    background-color: purple;
+}
+.qntyBox{
+    text-align: center;
+width: 40px;
+border: 1px solid purple;
+}
+.limitExced{
+    color: red;
+}
+
+.btns{
+    display: inline-block;
+    margin-left: 190px;
+}
+.buyBtn{
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.cartBtn{
+    color: purple;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 5px;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    color: red;
+}
+
+.Clock{
+    position: relative;
+    height: 670px;
+    background-color: black;
+}
+
+.time{
+    user-select: none;
+    position: absolute;
+    left: 33%;
+    top: 39%;
+
+}
+
+.hours {
+    font-size: 5rem;
+    font-weight: bolder;
+
+}
+
+.D_M {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+#dots, #seconds {
+    font-size: 5rem;
+    font-weight: bolder;
+
+}
+
+#dots{
+    color: green;
+}
+
+#period{
+    font-size: 2rem;
+
+}

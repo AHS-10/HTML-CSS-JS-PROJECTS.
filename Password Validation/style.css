@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ #body{
+    background-color: white;
+}  
+
+.container {
+    margin:37px 0 0 33%;
+    border: none;
+    border-radius: 25px;
+    height: 90vh;
+    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 35%;
+    overflow: hidden;
+}
+
+.heading {
+    /* border: 1px solid red; */
+    color: gray;
+    user-select: none;
+    margin: 18px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.InputsLabel{
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+margin-left: 65px;
+user-select: none;
+cursor: pointer;
+}
+
+#inputEmail,
+#inputPass,
+#CnfrmPass {
+    user-select: none;
+    width: 75%;
+    border: none;
+    border-radius: 12px;
+    /* height: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 12px;
+}
+
+.EmailDiv,
+.PassDiv {
+    /* border: 1px solid red; */
+    /* margin-left: 15px; */
+    text-align: center;
+}
+
+.ShowPass {
+    /* border: 1px solid red; */
+    user-select: none;
+    padding: 9px 0 0 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.login {
+    user-select: none;
+    width: 30%;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.CapsWar{
+    color: red;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 65px;
+
+}
+
+.condsDiv{
+    user-select: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.passValidConds{
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+
+}

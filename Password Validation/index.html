@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Password Validation</title>
+
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" ondblclick="Change()">
+
+    <div class="container">
+        <p class="heading">Create Account</p>
+
+        <form>
+
+            <label for="inputEmail" class="InputsLabel">Email*</label>
+            <div class="EmailDiv"><input type="email" name="" id="inputEmail" placeholder="Enter your email" />
+            </div>
+            <br>
+            <label for="inputPass" class="InputsLabel">Password*</label>
+            <div class="PassDiv"><input type="password" name="" placeholder="Enter your password" id="inputPass" />
+            </div>
+            <br>
+            <label for="CnfrmPass" class="InputsLabel">Confirm password*</label>
+            <div class="PassDiv">
+                <input type="password" name="" placeholder="Confirm password" id="CnfrmPass" />
+            </div>
+
+            <p class="CapsWar"></p>
+
+
+            <div class="ShowPass"><input type="checkbox" name="" id="ShowPass">
+                <label for="ShowPass" class="label">Show Password </label>
+            </div>
+
+            <br>
+            <div class="btn"><input type="submit" value="Create account" class="login" /></div>
+
+        </form>
+
+        
+
+        <div class="condsDiv">
+            <p class="passValidConds">Password should be at least 8 digits</p>
+            <br>
+            <p class="passValidConds">The password must contain at least 1 lowercase alphabetical character</p>
+            <br>
+            <p class="passValidConds">The password must contain at least 1 uppercase alphabetical character</p>
+            <br>
+            <p class="passValidConds">The password must contain at least 1 numeric character</p>
+            <br>
+            <p class="passValidConds">The password must contain at least one special character</p>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
