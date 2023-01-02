@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.navbar, .offcanvas-body {
+    background-color: #04396D;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #F1A300;
+    border-bottom: 0.063rem solid #F1A300;
+}
+
+.nav_about_opts {
+    color: #04396D;
+}
+
+.nav_about_opts:hover {
+    background-color: #04396D;
+    color: white;
+
+}
+
+.main_div {
+    position: relative;
+}
+
+.typewriter_container {
+    position: absolute;
+    bottom: 13rem;
+    left: 1.563rem;
+}
+
+.heading {
+    color: #F1A300;
+    font-size: 3rem;
+}
+
+.typewrite {
+    color: white;
+    text-decoration: none;
+}
+
+
+.Footer {
+    background-color: #04396D;
+}
+
+.white_color {
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
+.footer_logo_heading {
+    color: #F1A300;
+}
+
+.quick_nav_links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.quick_nav_links:hover {
+    color: #F1A300;
+    border-bottom: 0.063rem solid #F1A300;
+}
+
+.facebook {
+    color: #fff;
+    background-color: #3b5998;
+    box-shadow: 0 0 0.5rem #3b5998;
+}
+
+.twitter {
+    color: #fff;
+    background-color: #00aced;
+    box-shadow: 0 0 0.5rem #00aced;
+}
+
+.instagram {
+    color: #fff;
+    background-color: #cd486b;
+    box-shadow: 0 0 0.5rem #cd486b;
+}
+
+.whatsapp {
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 0.5rem green;
+}
+
+.mapouter {
+    /* position: relative; */
+    /* text-align: center; */
+    width: 21rem;
+    height: 15.625rem;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    /* background: none !important; */
+    width: 21rem;
+    height: 15.625rem;
+}
+
+.gmap_iframe {
+    width: 21rem !important;
+    height: 15.625rem !important;
+}
+
+/* CONTACT US PAGE MAP CSS  */
+.mapouter_contactus_page {
+    /* position: relative; */
+    /* text-align: center; */
+    width: 21rem;
+    height: 19rem;
+}
+
+.gmap_canvas_contactus_page {
+    overflow: hidden;
+    /* background: none !important; */
+    width: 21rem;
+    height: 19rem;
+}
+
+.gmap_iframe_contactus_page {
+    width: 21rem !important;
+    height: 19rem !important;
+}
+
+/* COUNTER CSS  */
+
+.counter {
+    color: #F1A300;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 77px 32px 40px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.counter:before,
+.counter:after {
+    content: "";
+    background: #fff;
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(-50%)translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.counter:after {
+    background: linear-gradient(45deg, #04396D 49%, #035C96 50%);
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    transform: translate(0);
+    top: 0;
+    left: 0;
+    z-index: -2;
+    clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
+}
+
+.counter .counter-icon {
+    color: #fff;
+    background: linear-gradient(45deg, #04396D 49%, #035C96 50%);
+    font-size: 33px;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+
+.counter .counter-icon span.fa {
+    transform: rotateX(0deg);
+    transition: all 0.3s ease 0s;
+}
+
+.counter:hover .counter-icon span.fa {
+    transform: rotateX(360deg);
+}
+
+.counter h3 {
+    text-transform: uppercase;
+    margin: 0 0 3px;
+}
+
+
+
+/* OUR CLIENTS SWIPER CSS.  */
+.our_clients {
+    color: #04396D;
+    font-size: 3rem;
+}
+
+/*   OUR CLIENTS SWIPER   */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* CARD TRANSITION ON HOVER  */
+.card {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    /* margin-bottom: 1.5em; */
+  }
+  .card:hover {
+    transform: scale(1.1);
+    /* margin: 0.9rem;  */
+  }
+
+  .product_name{
+    color: #04396D;
+    /* color: #00008B; */
+    /* color: #F1A300; */
+  }
+
+.Read_more{
+    cursor: pointer;
+    color: #04396D;
+}
+.Read_more:hover{
+    cursor: pointer;
+    color: #F1A300;
+}
+
+
+#more 
+{display: none;}
+
+
+.spacer{
+    height: 120px;
+}
+
+.service_page_homebtn{
+    color: white;
+
+}
+.service_page_homebtn:hover{
+    color: #F1A300;
+    border-bottom: 0.063rem solid #F1A300;
+
+}
+
+.services_name{
+    color: #04396D;
+}
+
+.services_name:hover{
+    cursor:pointer;
+    color: #F1A300;
+    font-weight:600;
+}
+
+.drp_dwn_opts{
+    color: #04396D;
+}
+
+.drp_dwn_opts:hover{
+    font-weight:400;
+    color: #F1A300;
+    background-color: #f8f9fa;
+}
+
+.services_page_clickbtn{
+    color: white;
+    background-color: #04396D;
+}
+
+.services_page_clickbtn:hover{
+    color: #F1A300;
+}
+
+
+/* BOOTSTRAP btn & btn-primary CSS:  */
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #04396D;
+    --bs-btn-border-color: #04396D;
+    --bs-btn-hover-color: #F1A300;
+    --bs-btn-hover-bg: #04396D;
+    --bs-btn-hover-border-color: #04396D;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #04396D;
+    --bs-btn-active-border-color: #04396D;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+/* BOOTSTRAP btn & btn-warning CSS:  */
+
+.btn-warning {
+    --bs-btn-color: black;
+    --bs-btn-bg: #F1A300;
+    --bs-btn-border-color: #F1A300;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F1A300;
+    --bs-btn-hover-border-color: #F1A300;
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+    --bs-btn-active-color: #04396D;
+    --bs-btn-active-bg: #F1A300;
+    --bs-btn-active-border-color: #F1A300;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #F1A300;
+    --bs-btn-disabled-border-color: #F1A300;
+}
+
+
+/* MEDIA QURIES  */
+
+/* MEDIA QURIES FOR COVER PIC TYPEWRITER EFFECT ALIGNMENT  */
+
+@media(max-width:1200px) {
+    .typewriter_container {
+        position: absolute;
+        bottom: 10rem;
+        left: 1.563rem;
+    }
+
+}
+
+@media(max-width:990px) {
+    .typewriter_container {
+        position: absolute;
+        bottom: 8rem;
+        left: 1.563rem;
+    }
+}
+
+@media(max-width:768px) {
+    .typewriter_container {
+        position: absolute;
+        bottom: 5rem;
+        left: 1.563rem;
+    }
+}
+
+@media(max-width:616px) {
+    .typewriter_container {
+        position: absolute;
+        bottom: 3rem;
+        left: 1.563rem;
+    }
+
+}
+
+@media(max-width:576px) {
+    .typewriter_container {
+        position: absolute;
+        bottom: 3.3rem;
+        left: 1.563rem;
+    }
+
+    .heading {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        height: 2rem;
+    }
+
+}
+
+@media(max-width:430px) {
+    .typewriter_container {
+        position: absolute;
+        bottom: 2rem;
+        left: 1.563rem;
+    }
+
+    .heading {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        height: 2rem;
+    }
+}
+
+/* MEDIA QUERY FOR COUNTER */
+
+@media screen and (max-width:991px) {
+    .counter {
+        margin-bottom: 40px;
+
+    }
+}
+
+
+
+/* MEDIA QUIRIES FOR MAP  */
+
+@media(max-width:1110px) {
+    .mapouter {
+        width: 18rem;
+        height: 15.625rem;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        width: 18rem;
+        height: 15.625rem;
+    }
+
+    .gmap_iframe {
+        width: 18rem !important;
+        height: 15.625rem !important;
+    }
+}
+
+
+@media(max-width:316px) {
+    .mapouter {
+        width: 15rem;
+        height: 15.625rem;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        width: 15rem;
+        height: 15.625rem;
+    }
+
+    .gmap_iframe {
+        width: 15rem !important;
+        height: 15.625rem !important;
+    }
+}
+
+/* MEDIA QUERY FOR FOOTER 3RD COLUMN  */
+
+@media(max-width:991px) {
+    .column_3 {
+        align-self: flex-start;
+    }
+}
+
+
+
+/* MEDIA QUIRIES FOR MAP OF CONTATC US PAGE  */
+
+@media(max-width:1110px) {
+    .mapouter_contactus_page {
+        width: 18rem;
+        height: 15.625rem;
+    }
+
+    .gmap_canvas_contactus_page {
+        overflow: hidden;
+        width: 18rem;
+        height: 15.625rem;
+    }
+
+    .gmap_iframe_contactus_page {
+        width: 18rem !important;
+        height: 15.625rem !important;
+    }
+}
+
+
+@media(max-width:316px) {
+    .mapouter_contactus_page {
+        width: 15rem;
+        height: 15.625rem;
+    }
+
+    .gmap_canvas_contactus_page {
+        overflow: hidden;
+        width: 15rem;
+        height: 15.625rem;
+    }
+
+    .gmap_iframe_contactus_page {
+        width: 15rem !important;
+        height: 15.625rem !important;
+    }
+}
